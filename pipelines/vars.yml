@@ -4,10 +4,10 @@ variables:
   RESOURCE_GROUP_NAME:                 $(provisionedResourceGroupName)        # provisioned by the admin setup
   KEY_VAULT_NAME:                      $(provisionedKeyVaultName)             # provisioned by the admin setup
   SECRET_NAME_CLIENT_SECRET:           $(provisionedSecretName)               # provisioned by the admin setup
-  STORAGE_ACCOUNT_NAME:                'dlsdatabricksunique123'               # must be unique in Azure
+  STORAGE_ACCOUNT_NAME:                'dlsdatabricks-cjc'               # must be unique in Azure
   PIPELINE_CONTAINER_NAME:             'pipeline'
   PROJECT_CONTAINER_NAME:              'project'
-  DATA_FACTORY_NAME:                   'adf-databricks-unique123'             # must be unique in Azure
+  DATA_FACTORY_NAME:                   'adf-databricks-cjc'             # must be unique in Azure
   DATA_FACTORY_PIPELINE_NAME:          'databricks-pipeline'
   DATABRICKS_WORKSPACE_NAME:           'databricks-workspace'
   DATABRICKS_PRICING_TIER:             'premium'
